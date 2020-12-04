@@ -224,7 +224,7 @@ namespace AdventOfCode2020.Tests
 
 			var output = new Day1().Part2(inEnum);
 
-			Assert.Pass(output.ToString());
+			Assert.Pass(output.ToString()); // Answer is 286977330.
 		}
 	}
 }
